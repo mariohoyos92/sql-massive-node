@@ -181,7 +181,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:3000/api/product/{{productID_0}}",
+			"url": "http://localhost:3000/api/product/{${productID_0}}",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -241,7 +241,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://localhost:3000/api/product/{{productID_0}}?desc=updated",
+			"url": "http://localhost:3000/api/product/{${productID_0}}?desc=updated",
 			"queryParams": [
 				{
 					"key": "desc",
